@@ -1,0 +1,1 @@
+$(function(){$("table").wrap(function(){var ctab_obj=$(this);if(ctab_obj.parent('div').hasClass('no-overflow'));else return"<div class='no-overflow'></div>"});$(".theme-custom-menubar-xs a.menu-toggle-btn").on('click',function(){$("div.menu-toggle-content").slideToggle("slow")})})
